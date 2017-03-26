@@ -1,0 +1,128 @@
+
+	*{
+		padding: 0;
+		margin: 0;
+	}
+
+	body{ 
+			background-image: url("AirHockey.jpg");
+			background-repeat: no-repeat;
+			background-position: 150px 30px;
+			background-size: 1000px 550px;
+	}
+
+	#leftHockey{
+		height: 120px;
+		width: 30px;
+		position: fixed;
+		top: 240px;
+		left: 200px;
+	}
+
+	#rightHockey{
+		height: 120px;
+		width: 30px;
+		position: fixed;
+		top: 240px;
+		left: 1070px;
+	}
+
+	#ball{
+		height: 50px;
+		position: fixed;
+		top: 280px;
+		left: 615px;
+	}
+	
+	.speed{
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		justify-content: space-around;
+		border: 1px solid grey;
+		padding: 10px;
+		height: 120px;
+		width: 100px;
+		top: 250px;
+		left: 20px;
+	}
+
+	#slow, #medium, #fast{
+		text-align: center;
+		margin-bottom: 10px;
+		border: 1px solid green;
+	}
+
+	#slow:hover, #medium:hover, #fast:hover{
+			background-color: #00FF00;
+			cursor: pointer;	
+		}
+
+	#speedText{
+		text-align: center;
+	}
+
+	.difficulty{
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		justify-content: space-around;
+		border: 1px solid grey;
+		padding: 10px;
+		height: 120px;
+		width: 100px;
+		top: 250px;
+		left: 1160px;
+	}
+
+	#amatuer, #pro, #ninja{
+		text-align: center;
+		margin-bottom: 10px;
+		border: 1px solid green;
+	}
+
+	#amatuer:hover, #pro:hover, #ninja:hover{
+			background-color: #00FF00;
+			cursor: pointer;	
+		}
+
+	#difficultyText{
+		text-align: center;
+	}
+
+	#begin, #stop{
+		position: fixed;
+		padding: 10px;
+		background-color: cyan;
+		border: 1px solid blue;
+		top: 150px;
+		font-size: 20px;
+		color: blue;
+		border-radius: 10%;
+	}
+
+	#begin{
+		left: 40px;
+	}
+
+	#stop{
+		left: 1180px;
+	}
+
+	#begin:hover, #stop:hover{
+		box-shadow: 0px 0px 65px #888888;
+		cursor: pointer;
+	}
+
+	.score{
+		position: fixed;
+		top: 70px;
+		left: 630px;
+		border: 1px solid black;
+		padding: 5px;
+		background-color:#FFCCFF;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		color: red;
+	}
